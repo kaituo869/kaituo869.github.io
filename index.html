@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>开拓 KAITUO — 个人主页</title>
+<meta name="description" content="开拓的个人主页：富澈葡萄酒、课堂互动游戏与 AI 短片。">
+<style>
+  :root { --ink:#1f1a17; --muted:#7a6f68; --accent:#7a1f2b; --bg:#faf7f2; --card:#ffffff; --line:#e8e0d8; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif; background:var(--bg); color:var(--ink); line-height:1.8; }
+  .wrap { max-width:860px; margin:0 auto; padding:0 24px; }
+  header { padding:96px 0 56px; text-align:center; }
+  header .en { letter-spacing:.5em; font-size:13px; color:var(--accent); font-weight:600; }
+  header h1 { font-family:Georgia,"Songti SC",serif; font-size:56px; letter-spacing:.12em; margin:14px 0 10px; }
+  header p { color:var(--muted); font-size:17px; }
+  .rule { width:64px; height:3px; background:var(--accent); margin:36px auto 0; border-radius:2px; }
+  section { padding:36px 0; }
+  h2 { font-size:20px; letter-spacing:.2em; margin-bottom:20px; }
+  h2 span { color:var(--accent); margin-right:10px; }
+  .about p { color:#4a423c; font-size:16px; }
+  .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:26px 22px; }
+  .card h3 { font-size:18px; margin-bottom:8px; }
+  .card p { color:var(--muted); font-size:14px; line-height:1.7; }
+  .tag { display:inline-block; margin-top:14px; font-size:12px; letter-spacing:.15em; color:var(--accent); border:1px solid var(--accent); border-radius:20px; padding:2px 12px; }
+  footer { text-align:center; color:var(--muted); font-size:13px; padding:48px 0 64px; border-top:1px solid var(--line); margin-top:24px; }
+  @media (max-width:640px){ .grid{grid-template-columns:1fr;} header h1{font-size:42px;} header{padding:64px 0 40px;} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="en">KAITUO</div>
+    <h1>开拓</h1>
+    <p>葡萄酒 · 课堂游戏 · AI 短片</p>
+    <div class="rule"></div>
+  </header>
+
+  <section class="about">
+    <h2><span>—</span>关于我</h2>
+    <p>富澈葡萄酒创始人。做酒，也做 AI 短片和课堂互动游戏——好东西都值得被认真做出来，再好好讲给别人听。</p>
+  </section>
+
+  <section>
+    <h2><span>—</span>在做的事</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>富澈 FULLCHEER</h3>
+        <p>葡萄酒品牌。雷司令、甄选甜红与果酒系列，香甜为你定制。</p>
+        <span class="tag">葡萄酒</span>
+      </div>
+      <div class="card">
+        <h3>课堂互动游戏</h3>
+        <p>给幼儿园和小学老师的多人互动课件游戏，让课堂动起来。</p>
+        <span class="tag">教育</span>
+      </div>
+      <div class="card">
+        <h3>AI 短片</h3>
+        <p>用 AI 生成影像，拍短片、做漫剧，讲有意思的故事。</p>
+        <span class="tag">创作</span>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 开拓 · kaituo.duckdns.org
+  </footer>
+</div>
+</body>
+</html>
